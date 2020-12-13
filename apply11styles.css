@@ -1,0 +1,63 @@
+/*
+ Komal Nayan Galla (C0779428)
+ 13/12/2020
+*/
+
+body{
+    font-family: 'Poppins';
+    background-color: rgb(208, 248, 148);
+}
+header{
+    background-color: mediumseagreen;
+    color: white;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+    padding-left: 10px;
+}
+main{
+    background-color: white;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    box-shadow: 10px 10px 5px gray;
+    padding: 20px;
+    text-align: justify;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px)
+{
+    main{
+        width: 91%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        box-shadow: 10px 10px 5px gray;
+        padding: 20px;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    main{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        box-shadow: 10px 10px 5px gray;
+        padding: 20px;
+        text-align: justify;
+    }
+
+}
